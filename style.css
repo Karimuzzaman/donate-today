@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-div h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: lightcoral;
+
+}
+
+#paragraph-first-div {
+    text-align: center;
+    color: lightgrey;
+
+}
+
+.first-div {
+    margin-top: 10%;
+
+}
+
+.second-div {
+    text-align: center;
+}
+
+#first-button {
+
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+
+}
+
+.first-section {
+    background-image: url(images/donation9.jpg);
+    background-size: cover;
+    height: 480px;
+    padding: 80px;
+    background-repeat: no-repeat;
+}
