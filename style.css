@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+
 }
 
 .first-div h1 {
@@ -43,5 +44,136 @@ body {
     background-size: cover;
     height: 480px;
     padding: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken, luminosity;
     background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.second-section {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.second-section h1 {
+    font-size: 40px;
+}
+
+.second-section p {
+    font-size: 20px;
+}
+
+.flex-mode {
+    display: flex;
+    margin-left: 35%;
+}
+
+#b1 {
+    margin-right: 2%;
+
+}
+
+#b1 button {
+    height: 100px;
+    width: 80px;
+}
+
+#b2 {
+    margin-right: 2%;
+}
+
+#b2 button {
+    height: 100px;
+    width: 80px;
+}
+
+#b3 {
+    margin-right: 2%;
+}
+
+#b3 button {
+    height: 100px;
+    width: 80px;
+}
+
+#b4 {
+    margin-right: 2%;
+}
+
+#b4 button {
+    height: 100px;
+    width: 80px;
+}
+
+#b5 {
+    margin-right: 2%;
+}
+
+#b5 button {
+    height: 100px;
+    width: 80px;
+}
+
+.third-section {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.third-section h1 {
+    font-size: 40px;
+}
+
+.third-section p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.third-div {
+    display: flex;
+    width: 70%;
+    height: 30%;
+    margin-left: 15%;
+
+}
+
+#food {
+
+    margin-right: 20%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    padding: 5% 5%;
+    background-color: lightpink;
+}
+
+#shelter {
+    margin-right: 20%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    padding: 5% 5%;
+    background-color: lightsalmon;
+}
+
+#child {
+    margin-right: 20%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    padding: 5% 5%;
+    background-color: lightcyan;
+}
+
+footer h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    text-align: center;
+    color: orange;
+}
+
+footer p {
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+footer {
+    background-color: black;
 }
