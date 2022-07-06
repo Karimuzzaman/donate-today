@@ -4,11 +4,11 @@ body {
 }
 
 .first-div h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
     padding: 0;
     text-align: center;
-    color: lightcoral;
+    color: wheat;
 
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .second-section {
-    margin-top: 10%;
+    margin-top: 7%;
     text-align: center;
 }
 
@@ -59,13 +59,25 @@ body {
     font-size: 40px;
 }
 
-.second-section p {
+#second-section {
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .flex-mode {
+    margin: 2%;
     display: flex;
     margin-left: 22.5%;
+}
+
+#taka {
+    color: lightgray;
+}
+
+#line {
+    width: 40%;
+    color: darkgray;
 }
 
 #b1 {
@@ -81,6 +93,7 @@ body {
     font-weight: 700;
     border: 1px solid lightyellow;
     border-radius: 5px;
+    color: grey;
 }
 
 #b2 {
@@ -95,6 +108,7 @@ body {
     font-weight: 700;
     border: 1px solid lightyellow;
     border-radius: 5px;
+    color: grey;
 }
 
 #b3 {
@@ -109,6 +123,7 @@ body {
     font-weight: 700;
     border: 1px solid lightcoral;
     border-radius: 5px;
+    color: lightcoral;
 }
 
 #b4 {
@@ -123,6 +138,7 @@ body {
     font-weight: 700;
     border: 1px solid lightyellow;
     border-radius: 5px;
+    color: grey;
 }
 
 #b5 {
@@ -137,6 +153,7 @@ body {
     font-weight: 700;
     border: 1px solid lightyellow;
     border-radius: 5px;
+    color: grey;
 }
 
 .third-section {
@@ -156,6 +173,8 @@ body {
 #p {
     font-size: 20px;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .food {
@@ -216,13 +235,48 @@ body {
 }
 
 .fifth-section h1 {
-    margin-top: 6%;
+    margin-top: 8%;
     font-size: 40px;
     text-align: center;
 }
 
 .fifth-section p {
+
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.email-field {
+    margin-top: 3%;
+    margin-left: 30%;
+    height: 150px;
+    width: 600px;
+    border: 1px solid lightyellow;
+    background-color: lightyellow;
+}
+
+#email {
+    width: 190px;
+    height: 30px;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    margin-top: 10%;
+    margin-left: 22%;
+
+
+}
+
+#submit {
+    width: 120px;
+    height: 35px;
+    background-color: lightcoral;
+    border: 1px solid lightcoral;
+    color: white;
+
+
+
+
 }
 
 
