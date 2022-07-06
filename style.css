@@ -191,6 +191,42 @@ body {
     border-radius: 10px;
 }
 
+.forth-section {
+    margin-top: 10%;
+    display: flex;
+
+}
+
+.description {
+
+    width: 35%;
+    margin-left: 10%;
+}
+
+.description h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+
+}
+
+.image img {
+    margin-left: 15%;
+    width: 60%;
+}
+
+.fifth-section h1 {
+    margin-top: 6%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fifth-section p {
+    text-align: center;
+}
+
+
+
 
 
 footer h2 {
