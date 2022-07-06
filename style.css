@@ -65,7 +65,7 @@ body {
 
 .flex-mode {
     display: flex;
-    margin-left: 35%;
+    margin-left: 22.5%;
 }
 
 #b1 {
@@ -74,8 +74,13 @@ body {
 }
 
 #b1 button {
-    height: 100px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
+    background-color: lightyellow;
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid lightyellow;
+    border-radius: 5px;
 }
 
 #b2 {
@@ -83,8 +88,13 @@ body {
 }
 
 #b2 button {
-    height: 100px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
+    background-color: lightyellow;
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid lightyellow;
+    border-radius: 5px;
 }
 
 #b3 {
@@ -92,8 +102,13 @@ body {
 }
 
 #b3 button {
-    height: 100px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
+    background-color: lightpink;
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
 }
 
 #b4 {
@@ -101,8 +116,13 @@ body {
 }
 
 #b4 button {
-    height: 100px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
+    background-color: lightyellow;
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid lightyellow;
+    border-radius: 5px;
 }
 
 #b5 {
@@ -110,8 +130,13 @@ body {
 }
 
 #b5 button {
-    height: 100px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
+    background-color: lightyellow;
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid lightyellow;
+    border-radius: 5px;
 }
 
 .third-section {
@@ -119,53 +144,63 @@ body {
     text-align: center;
 }
 
-.third-section h1 {
+.third-div {
+    display: flex;
+    margin-left: 10%;
+}
+
+#h1 {
     font-size: 40px;
 }
 
-.third-section p {
+#p {
     font-size: 20px;
     text-align: center;
 }
 
-.third-div {
-    display: flex;
-    width: 70%;
-    height: 30%;
-    margin-left: 15%;
-
-}
-
-#food {
-
-    margin-right: 20%;
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 10px;
-    padding: 5% 5%;
-    background-color: lightpink;
-}
-
-#shelter {
-    margin-right: 20%;
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 10px;
-    padding: 5% 5%;
+.food {
+    margin-left: 2%;
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+    border: 1px solid lightsalmon;
     background-color: lightsalmon;
+    text-align: left;
+    border-radius: 10px;
 }
 
-#child {
-    margin-right: 20%;
-    box-shadow: 10px 10px 40px grey;
+.shelter {
+    margin-left: 2%;
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+    border: 1px solid lightpink;
+    background-color: lightpink;
+    text-align: left;
     border-radius: 10px;
-    padding: 5% 5%;
-    background-color: lightcyan;
 }
+
+.child-education {
+    margin-left: 2%;
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+    border: 1px solid lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
+    text-align: left;
+    border-radius: 10px;
+}
+
+
 
 footer h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: orange;
+}
+
+#h2-footer {
+    margin-top: 5%;
 }
 
 footer p {
